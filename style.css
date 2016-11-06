@@ -29,7 +29,7 @@ ul{
 	list-style:none;
 	margin-left: 0;
 	padding-left: 0;
-} 
+}
 li{
 	margin-top: 10px;
 	border-bottom: 1px solid #ddd;
@@ -69,7 +69,7 @@ li{
 	float: left;
 	display: inline-block;
 	/*border: 10px solid #e3e9ff;*/
-	
+
 }
 #insidetemp{
 	width: 48%;
