@@ -4,6 +4,7 @@
 		<title>Swedish embassy</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="weather.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="main.js"></script>
 		 <!-- Old weather code -->
@@ -12,11 +13,36 @@
 	</head>
 
 	<body>
+		
 		<div id="weatherBackground" class="sunnyBackground">
 			<div id="weather" class="sunny"></div>
 		</div>
 		<div class="house">
 			<img src="images/house.png" alt="House" />
 		</div>
+
+		<div id="clock">
+					<iframe id="clock" scrolling="no" frameborder="no" clocktype="html5" style="overflow:hidden;border:0;margin:0;padding:0;width:150px;height:150px;"src="http://www.clocklink.com/html5embed.php?clock=024&timezone=GMT00&color=black&size=150&Title=&Message=&Target=&From=2017,1,1,0,0,0&Color=black"></iframe>
+		</div>
+
+	<!--GOOGLE CALENDAR-->
+		<div id="calendar">
+			<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=300&amp;wkst=1&amp;bgcolor=%23ffffcc&amp;src=844mdktjkt0jqtpl15v4jtcmt0%40group.calendar.google.com&amp;color=%23125A12&amp;ctz=Etc%2FGMT" style="border-width:0" width="300" height="300" frameborder="0" scrolling="no"></iframe>
+		</div>
+
+		<!-- WEATHER IN CAMBRIDGE -->
+		<div id="weatherwidget">
+			<div class="divcontent">
+				
+				<iframe src="https://www.meteoblue.com/en/weather/widget/daily/cambridge_united-kingdom_2653941?geoloc=fixed&days=2&tempunit=CELSIUS&windunit=KILOMETER_PER_HOUR&coloured=monochrome&pictoicon=1&maxtemperature=1&mintemperature=1&layout=light"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups" style="width: 108px;height: 231px"></iframe><div><!-- DO NOT REMOVE THIS LINK --><a href="https://www.meteoblue.com/en/weather/forecast/week/cambridge_united-kingdom_2653941?utm_source=weather_widget&utm_medium=linkus&utm_content=daily&utm_campaign=Weather%2BWidget" target="_blank"></a></div>
+			</div>
+		</div>
+
+		<!--RECEPIES-->
+		<div id="recepies">
+			<p>Dinner plan:</p>
+			<p id="wtftomakefordinner">Cook up some fucking eggplant parmigiana</p>
+		</div>
+		
 	</body>
 </html>

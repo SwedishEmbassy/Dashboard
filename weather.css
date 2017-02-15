@@ -423,7 +423,7 @@ WEATHER CONTAINER
 
 #weatherBackground{
 	height: 500px;
-	width: 100%;
+	width: 1024px;
 	position: relative;
 	top: 0;
 	left: 0;
@@ -452,17 +452,3 @@ WEATHER CONTAINER
 	background: #444444;
 }
 
-
-
-/* Move this into other css file */
-.house {
-	width: 100%;
-  position: absolute;
-  top: 150px;
-}
-.house img {
-	width: inherit;
-}
-body {
-	margin: 0;
-}
